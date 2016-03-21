@@ -1,0 +1,19 @@
+How to run installer
+--------------------
+
+1. Open terminal. Press Ctrl + Alt + T on ubuntu to open it.
+2. Execute `install.sh` file like this.
+
+   $ bash install.sh
+
+3. Type Y and press enter whenever prompted during installation.
+
+How to use offline debian packages (Recommended for Ubuntu 14.04 x64 only)
+--------------------------------------------------------------------------
+
+1. Open terminal. Press Ctrl + Alt + T on ubuntu to open it.
+2. Execute `install_partial_offline.py` file like this.
+
+    $ python install_partial_offline.py
+
+3. Type Y and press enter whenever prompted during installation.
