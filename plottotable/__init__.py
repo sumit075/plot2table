@@ -38,6 +38,7 @@ def main():
 
         generate_data()
 
+
 def process_pdf(pdf):
     """Process the pdf file.
 
@@ -64,6 +65,7 @@ def process_pdf(pdf):
     os.makedirs(pdf_output_dir)
 
     genImages(pdf)
+
 
 def open_gui():
     """
@@ -92,5 +94,5 @@ def generate_data():
 
     clean()
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
